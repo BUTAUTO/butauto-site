@@ -70,6 +70,7 @@ height:100vh;
 .hero h2{
     font-size:72px;
     font-weight:900;
+    color:white;
     letter-spacing:2px;
     margin-bottom:30px;
     text-shadow:0 5px 20px rgba(0,0,0,.9);
