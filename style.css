@@ -241,3 +241,103 @@ section h2{
     font-size:16px;
 
 }
+/* ========= QUI SOMMES-NOUS ========= */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+margin-top:40px;
+}
+
+.about-text p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:20px;
+color:#444;
+}
+
+.about-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,.20);
+transition:.4s;
+}
+
+.about-image img:hover{
+transform:scale(1.02);
+}
+
+/* ========= CONTACT ========= */
+
+#contact .services-grid{
+margin-top:40px;
+}
+
+#contact .service-card{
+text-align:center;
+}
+
+#contact .service-card p{
+font-size:18px;
+}
+
+/* ========= FOOTER ========= */
+
+footer p{
+margin:8px 0;
+}
+
+/* ========= ANIMATION ========= */
+
+.service-card{
+opacity:0;
+transform:translateY(30px);
+animation:fadeUp .8s forwards;
+}
+
+.service-card:nth-child(2){animation-delay:.1s;}
+.service-card:nth-child(3){animation-delay:.2s;}
+.service-card:nth-child(4){animation-delay:.3s;}
+.service-card:nth-child(5){animation-delay:.4s;}
+.service-card:nth-child(6){animation-delay:.5s;}
+.service-card:nth-child(7){animation-delay:.6s;}
+.service-card:nth-child(8){animation-delay:.7s;}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ========= MOBILE ========= */
+
+@media(max-width:900px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+.hero h2{
+font-size:48px;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.btn{
+padding:18px 35px;
+font-size:18px;
+}
+
+}
