@@ -96,40 +96,38 @@ background-attachment:fixed;
 }
 .hero h2{
 
-font-size:82px;
+font-size:78px;
 
 font-weight:900;
 
 line-height:1.05;
 
-letter-spacing:2px;
+margin-bottom:30px;
 
-margin-bottom:25px;
-
-color:#fff;
-
-text-shadow:
-
-0 4px 10px rgba(0,0,0,.45),
-
-0 10px 30px rgba(0,0,0,.35);
-
-}
-.hero p{
-
-font-size:30px;
-
-font-weight:400;
-
-max-width:900px;
-
-margin-bottom:55px;
+letter-spacing:1px;
 
 color:white;
 
 text-shadow:
 
-0 2px 8px rgba(0,0,0,.40);
+0 5px 20px rgba(0,0,0,.35);
+
+}
+..hero p{
+
+font-size:30px;
+
+line-height:1.8;
+
+max-width:900px;
+
+margin-bottom:50px;
+
+color:white;
+
+text-shadow:
+
+0 3px 10px rgba(0,0,0,.30);
 
 }
 .btn{
@@ -548,11 +546,17 @@ margin-bottom:40px;
 
 }
 .hero-buttons{
+
 display:flex;
+
 justify-content:center;
-gap:20px;
+
+gap:25px;
+
 flex-wrap:wrap;
-}
+
+margin-top:15px;
+
 
 .btn-secondaire{
 background:#111827;
@@ -642,4 +646,16 @@ line-height:1.9;
 margin-bottom:25px;
 
 }
+.hero-content{
 
+max-width:900px;
+
+padding:40px;
+
+border-radius:20px;
+
+background:rgba(0,0,0,.15);
+
+backdrop-filter:blur(3px);
+
+}
