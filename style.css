@@ -45,29 +45,43 @@ nav a:hover{
 }
 
 .hero{
-    position:relative;
-min-height:850px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
 
-    text-align:center;
-    color:white;
+position:relative;
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+width:100%;
+max-width:100%;
+
+min-height:100vh;
+
+margin:0;
+padding:80px 30px;
+
+text-align:center;
+color:white;
 
 background:
-linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url("hero.jpg");
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.60)
+),
+url("galerie4.png");
+
 background-size:cover;
-background-position:center;
+background-position:center center;
 background-repeat:no-repeat;
 background-attachment:fixed;
 
-    padding:80px 30px;
+}
 }
 
 .hero h2{
-    font-size:72px;
+    font-size:82px;
+    line-height:1.1;
     font-weight:900;
     color:white;
     letter-spacing:2px;
@@ -75,7 +89,7 @@ background-attachment:fixed;
     text-shadow:0 5px 20px rgba(0,0,0,.9);
 }
 .hero p{
-    font-size:28px;
+    font-size:32px;
     line-height:1.6;
     max-width:900px;
     margin-bottom:45px;
@@ -84,9 +98,9 @@ background-attachment:fixed;
 .btn{
     background:linear-gradient(90deg,#009dff,#005eff);
     color:white;
-    padding:22px 55px;
+    padding:24px 65px;
     border-radius:50px;
-    font-size:22px;
+    font-size:24px;
     font-weight:bold;
     text-decoration:none;
     transition:.35s;
@@ -98,9 +112,18 @@ background-attachment:fixed;
     box-shadow:0 20px 45px rgba(0,120,255,.55);
 }
 section{
-    max-width:1100px;
-    margin:auto;
-    padding:70px 20px;
+
+max-width:1200px;
+
+margin:auto;
+
+padding:90px 25px;
+
+}
+.hero{
+
+max-width:100%;
+
 }
 
 section h2{
