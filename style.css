@@ -55,13 +55,14 @@ min-height:850px;
     text-align:center;
     color:white;
 
-    background:
-    linear-gradient(rgba(5,10,20,.72),rgba(5,10,20,.82)),
-    url("hero.jpg");
+ background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("images/hero-accueil.jpg");
 
-    background-size:cover;
-    background-position:center center;
-    background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
 
     padding:80px 30px;
 }
@@ -456,6 +457,4 @@ body{
     overflow-x:hidden;
 }
 
-.hero{
-    background-position:center 35%;
-}
+
