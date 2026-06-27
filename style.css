@@ -693,3 +693,34 @@ backdrop-filter:blur(3px);
     height:auto;
     display:block;
 }
+/* ===== Correction du logo ===== */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+
+    background: rgba(10,15,25,.75);
+    backdrop-filter: blur(10px);
+}
+
+header .logo{
+    width: auto !important;
+    height: 60px !important;
+    max-width: 220px !important;
+    display: block;
+}
+
+header img{
+    width: auto !important;
+    height: 60px !important;
+    max-width: 220px !important;
+}
